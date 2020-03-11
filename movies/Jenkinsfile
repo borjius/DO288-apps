@@ -13,7 +13,7 @@ pipeline {
         //TODO: Customize these variables for your environment
         DEV_PROJECT = "bposteic-movies-dev"
         STAGE_PROJECT = "bposteic-movies-stage"
-        APP_GIT_URL = "https://github.com/bposteic/DO288-apps"
+        APP_GIT_URL = "https://github.com/borjius/DO288-apps"
         NEXUS_SERVER = "http://nexus-common.apps.ocp-eu2.prod.nextcle.com"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
