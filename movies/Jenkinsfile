@@ -128,7 +128,7 @@ pipeline {
                 sh '''
 		    oc project ${STAGE_PROJECT}
 		    oc new-app --name ${APP_NAME} -i ${APP_NAME}:stage
-		    oc expose svg/${APP_NAME}
+		    oc expose svc/${APP_NAME}
 		'''
             }
         }
